@@ -151,7 +151,7 @@ void set_cursor(int x, int y)
 	port_byte_out(0x3D5, (uint8_t)((pos >> 8) & 0xFF));
 }
 
-//Work in process (Works fine with 4.3ghz processors)
+//Work in progress (Works fine with 4.3ghz processors)
 void Sleep(int milliseconds)
 {
 	milliseconds *= 38000;
